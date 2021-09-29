@@ -1,9 +1,9 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { FormControl, FormGroup } from '@angular/forms';
+import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-hello',
-  template: './hello.component.html',
+  templateUrl: './hello.component.html',
   styles: [`h1 { font-family: Lato; }`],
 })
 export class HelloComponent implements OnInit {
